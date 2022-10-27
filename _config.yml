@@ -50,15 +50,16 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  about_profile_image: ./image.jpg
+  about_content: | # this will include new lines to allow paragraphs
+  # 소개 
+    ![alt text](./image.jpg "knh")
+    - 이름 : 김남혁
+    - 학교/학과 : 한림대학교/AI의료융합학과 2학년 재학 중
+    - 취미 : 자전거 타기, 머신러닝/딥러닝 공부, kaggle/dacon 대회 찾아보기
+    - Email : skapur749@gmail.com
+    - Github : [github.com/gmeag01](github.com/gmeag01)
+    > 개같이 일하고 정승같이 놀자
 
 content:
   - title: Projects # Title for the section
